@@ -14,7 +14,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          cd /home/bot/bot/_anybot/anybot_v0_okko_hub/front
+          cd /home/bot/bot/_anybot/anybot_v0_okko_hub/front/OkkoContest
           git config core.sparseCheckout true
           echo "dist/" > .git/info/sparse-checkout
           git pull origin master
